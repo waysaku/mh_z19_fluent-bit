@@ -8,4 +8,7 @@ docker build -t waysaku/mh_z19_fluent-bit .
 ```
 
 ## Run docker container
-docker run --device=/dev/ttyS0:/dev/ttyS0 -ti waysaku/mh_z19_fluent-bit
+docker run --device=/dev/ttyS0:/dev/ttyS0 -d -ti waysaku/mh_z19_fluent-bit
+
+## check logs
+docker logs [container id]
