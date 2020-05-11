@@ -5,4 +5,3 @@ RUN pip3 install pyserial
 COPY fluent-bit.conf fluent-bit/etc/
 COPY parsers.conf     fluent-bit/etc/
 COPY check_co2.py .
-COPY check_co2_mackerel.py .

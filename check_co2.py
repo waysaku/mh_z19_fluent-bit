@@ -15,7 +15,7 @@ try:
         print(json.dumps(
             {
                 "time": (datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S %z')),
-                "co2": str(s[2]*256 + s[3])
+                "co2": s[2]*256 + s[3]
             }))
       break
 except:
