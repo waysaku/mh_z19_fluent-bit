@@ -11,4 +11,4 @@ docker build -t waysaku/mh_z19_fluent-bit .
 docker run --device=/dev/ttyS0:/dev/ttyS0 -d -ti waysaku/mh_z19_fluent-bit
 
 ## check logs
-docker logs -f --tail="10" 94eb2b81ad53
+docker logs -f --tail="10" [containerId]
